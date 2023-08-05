@@ -1,0 +1,120 @@
+:root{
+    --clienteImg: url(../images/icone/icone-cliente.png);
+    --veiculoImg: url(../images/icone/icone-veiculo.png);
+    --manutencaoImg: url(../images/icone/icone-manitenção.png);
+    --historicoImg: url(../images/icone/icone-historicoDeTrabalho.png);
+    --pesquisaImg: url(../images/icone/icone-pesquisa.png);
+}
+
+
+.principal{
+    position: fixed;
+    margin-top: 54px;
+}
+
+.tamanho-menu{
+    position: fixed;
+    width: 270px;
+    height: calc(100% - 93px);
+    overflow-y: auto;
+}
+
+/*---------- Menu do Usuario ----------*/
+.menu-usuario{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.foto-usuario{
+    text-align: center;
+    margin: 1rem;
+}
+
+.nome-usuario{
+    text-align: center;
+    margin: 1rem;
+}
+
+.menu-sair{
+    text-align: center;
+}
+
+.sair{
+    margin: 1rem;
+    border-color: var(--vermelho-escuro);
+    border-style:solid;
+    border-width: 3px;
+    padding: 0 15px;
+    border-radius: 30px;
+}
+
+hr{
+    margin-bottom: 0;
+}
+
+/*---------- Menu principal ----------*/
+
+
+.menu-operacao input{
+    display: block;
+    width: 100%;
+    text-align: start;
+    background-position:20px;
+    background-repeat: no-repeat;
+    background-size: 35px;
+    padding: 10px 0px 10px 70px;
+    border: none; 
+}
+
+#Cliente{
+    background-image: var(--clienteImg);
+}
+#Veiculo{
+    background-image: var(--veiculoImg);
+}
+#Manutencao{
+    background-image: var(--manutencaoImg);
+}
+#Historico{
+    background-image: var(--historicoImg);
+}
+#Pesquisar{
+    background-image: var(--pesquisaImg);
+}
+
+/* .menu-txt{
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+}
+
+
+.imgMenu{
+    width: 30px;
+    margin: 0 10px;
+} */
+
+/* ---------- Animação menu ---------- */
+
+/* #Cadastro:checked ~ .CadastroCliente{
+    background-color: var(--vermelho-escuro);
+}
+
+#CadastroVeiculo:checked ~ .CadastroVeiculo{
+    background-color: var(--vermelho-escuro);
+}
+
+#CadastroManutencao:checked ~ .CadastroManutencao{
+    background-color: var(--vermelho-escuro);
+}
+
+#HistoricoManutencao:checked ~ .HistoricoManutencao{
+    background-color: var(--vermelho-escuro);
+}
+
+#Pesquisar:checked ~ .CampoDePesquisa{
+    background-color: var(--vermelho-escuro);
+}  */

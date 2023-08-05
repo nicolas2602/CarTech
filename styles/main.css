@@ -1,0 +1,7 @@
+.main{
+    position: fixed;
+    margin-left: 270px;
+    height: calc(100% - 95px);
+    width: calc(100% - 270px);
+    overflow: auto;
+}

@@ -1,0 +1,14 @@
+@import url("./cor.css");
+@import url("./header.css");
+@import url("./menus.css");
+@import url("./main.css");
+@import url("./footer.css");
+@import url("./inicioSessao.css");
+
+
+html
+body{
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+}

@@ -1,0 +1,48 @@
+.header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    height: 54px;
+}
+
+.header-nav{
+    padding: 0.5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-item{
+    display: inline;
+}
+
+.header-logo{
+    text-decoration: none;
+    display: inline;
+    font-size: 25px;
+    font-weight: 600;
+    vertical-align: inherit;
+} 
+
+.header-link{
+    text-decoration: none;
+    display: inline;
+    font-size: 20px;
+    font-weight: 400;
+    vertical-align: text-top;
+    margin-left: 30px;
+}
+
+.img--logo{
+    display: inline;
+    width: 35px;
+    margin: 0 0.5rem;
+    vertical-align: bottom;
+}
+
+.img--link{
+    display: inline;
+    width: 25px;
+    margin: 0 0.5rem;
+    vertical-align: inherit;
+
+}

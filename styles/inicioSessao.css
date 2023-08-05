@@ -1,0 +1,67 @@
+.logBody{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+
+}
+
+.logInicio{
+    width: 320px;
+    box-sizing: border-box;
+    border: 1px solid var(--branco);
+    border-radius: 1rem;
+    padding: 2rem 1rem 1rem 1rem;
+    box-shadow: 0 0 30px 1px;
+}
+
+.logImage{
+    display: block;
+    margin: 0 auto;
+}
+
+.titulo{
+    text-align: center;
+    padding-top: 0.5em;
+}
+
+.logCampo{
+    margin-top: 1rem;
+}
+
+.LogBotao{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.LogBotao input{
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    background: var(--vermelho-escuro);
+    color: var(--branco);
+}
+.LogBotao input:hover{
+    background: var(--vermelho-claro);
+}
+
+
+@media only screen and (min-width: 600px) {
+
+    .logInicio{
+        width: 520px;
+        box-sizing: border-box;
+        border: 2px solid var(--branco);
+        border-radius: 1rem;
+        padding: 2rem 1rem 1rem 1rem;
+    }
+
+    .LogBotao input{
+        padding: 1rem 2rem;
+        border: none;
+        border-radius: 0.5rem;
+        background: var(--vermelho-escuro);
+        color: var(--branco);
+    }
+}
+

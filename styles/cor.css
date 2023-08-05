@@ -1,0 +1,73 @@
+:root{
+    --preto:#1A1A1A;
+    --preto-cinza:#444444;
+    --branco:#DADADA;
+    --vermelho-escuro:#7B1111;
+    --vermelho-claro:#FF3E3E;
+}
+
+/*---------- Cor de Fundo ----------*/
+.cBG-preto{
+    background-color: var(--preto);
+}
+
+.cBG-preto-cinza{
+    background-color: var(--preto-cinza);
+}
+
+.cBG-branco{
+    background-color: var(--branco);
+}
+
+.cBG-vermelho-escuro{
+    background-color: var(--vermelho-escuro);
+}
+
+.cBG-vermelho-claro{
+    background-color: var(--vermelho-claro);
+}
+
+/*---------- animação de fundo ----------*/
+.cBGA-preto-cinza{
+    background-color: var(--preto-cinza);
+}
+.cBGA-preto-cinza:hover{
+    background-color: var(--vermelho-claro);
+}
+
+.cBGA-preto-cinza:active,
+.cBGA-preto-cinza:checked{
+    background-color: var(--vermelho-escuro);
+}
+
+
+/*---------- Cor da fonte ----------*/
+.cTxt-preto{
+    color: var(--preto);
+}
+
+.cTxt-preto-cinza{
+    color: var(--preto-cinza);
+}
+
+.cTxt-branco{
+    color: var(--branco);
+}
+
+.cTxt-vermelho-escuro{
+    color: var(--vermelho-escuro);
+}
+
+.cTxt-vermelho-claro{
+    color: var(--vermelho-claro);
+}
+
+/* ---------- Animação da cor da fonte ---------- */
+
+.cTxtA-branco{
+    color: var(--branco);
+}
+.cTxtA-branco:hover{
+    transition: 0.2s;
+    color: var(--vermelho-claro);
+}
