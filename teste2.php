@@ -1,3 +1,0 @@
-<h1>CLICK NO LINK 2</h1>
-
-
