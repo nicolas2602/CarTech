@@ -1,3 +1,4 @@
+<div style="display: none;">
 <?php
     // Script para comunicar com o Banco de Dados MySQL.
     // Teste Conexão.
@@ -18,17 +19,20 @@
 ?> 
 
 <script>
+
+    // Script para direcionar para pagina OffLineServer, caso não haja conexão
+    // caso não haja conexão e se já não tever direcionado.
+
     let erroConexao = <?= $erroConexao; ?>;
-    console.log(erroConexao);
-    if(erroConexao == 0){
-        window.location.href =  "./InicioSessao.php";
-    }
-    else{
+    let pagina = "<?= $_SESSION["paginaPrincipal"]; ?>";
+
+    console.log(pagina);
+    if(erroConexao == 1 && pagina != "OffLineServer.php"){
         window.location.href =  "./OffLineServer.php";
     }
 
 </script>
-
+</div>
 
 
 

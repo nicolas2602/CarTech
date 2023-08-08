@@ -1,3 +1,6 @@
+<?php session_start(); $_SESSION["paginaPrincipal"] = "OffLineServer.php"; ?>
+<?php require_once("./script-php/conexaoMySQL.php"); ?>
+
 <!DOCTYPE html>
 <html lang="pt_br">
 <head>
@@ -39,6 +42,24 @@
             </div>
         </div>
     </div>
+
+
     
+    <?php
+    // Define previamente a pagina a ser direcionada caso haja conexão
+        if($erroConexaoX == 0){
+            $_SESSION["paginaPrincipal"] = "InicioSessao.php";
+        }
+    ?>
+
+    <script>
+    // Direciona para pagina pricipal caso haja conexão.
+    let erroConexaoX = <?= $erroConexao; ?>;
+
+    if(erroConexaoX == 0){
+        window.location.href =  "./InicioSessao.php";
+    }
+    </script>
+
 </body>
 </html>

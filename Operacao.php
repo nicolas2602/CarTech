@@ -1,4 +1,6 @@
-<?php session_start(); ?>
+<?php session_start(); $_SESSION["paginaPrincipal"] = "Operacao.php";
+    require_once("./script-php/conexaoMySQL.php");
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 
